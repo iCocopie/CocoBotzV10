@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Chottomatte`
+    return `⏳ *Chottomatte Kudasai*`
 }
 
 exports.ok = () => {
@@ -94,7 +94,7 @@ Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Lapor Owner Agar Segera Di 
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu CocoBotz-MD :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -103,8 +103,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}ping
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
-╰❒ ${prefix}donate
-
+├ ${prefix}donate
+╰❒
 
 ╭─❒ 「 Owner 」 
 ├ < evaluate
@@ -127,8 +127,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}self
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [reply pesan bot]
-╰❒ ${prefix}setppbot [reply image]
-
+├ ${prefix}setppbot [reply image]
+╰❒
 
 ╭─❒ 「 Database 」 
 ├ ${prefix}setcmd [reply stiker]
@@ -141,8 +141,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}addmsg [nama file]
 ├ ${prefix}getmsg [nama file]
 ├ ${prefix}listmsg
-╰❒ ${prefix}delmsg [nama file]
-
+├ ${prefix}delmsg [nama file]
+╰❒
 
 ╭─❒ 「 Group 」 
 ├ ${prefix}listonline
@@ -159,24 +159,28 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}linkgc
 ├ ${prefix}group [open/close]
 ├ ${prefix}tagall [text]
-╰❒ ${prefix}hidetag [text]
+├ ${prefix}hidetag [text]
+╰❒
 
 ╭─❒ 「 Anime 」 
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
-╰❒ ${prefix}character [query]
+├ ${prefix}character [query]
+╰❒
 
 ╭─❒ 「 Tag 」 
 ├ ${prefix}stickertag
 ├ ${prefix}videotag [query]
 ├ ${prefix}vntag [query]
-╰❒ ${prefix}imagetag [query]
+├ ${prefix}imagetag [query]
+╰❒
 
 ╭─❒ 「 Stalking 」 
 ├ ${prefix}igstalk [username]
 ├ ${prefix}ghstalk [username]
-╰❒ ${prefix}ytstalk [channel]
+├ ${prefix}ytstalk [channel]
+╰❒
 
 
 ╭─❒ 「 Search 」 
@@ -187,16 +191,16 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}wattpad [query]
 ├ ${prefix}webtoons [query]
 ├ ${prefix}drakor [query]
-╰❒ ${prefix}pinterest [query]
-
+├ ${prefix}pinterest [query]
+╰❒
 
 ╭─❒ 「 Converter 」 
 ├ ${prefix}stiker [reply image]
 ├ ${prefix}tourl [image/video]
 ├ ${prefix}togif [sticker]
 ├ ${prefix}tomp4 [sticker]
-╰❒${prefix}toimg [reply sticker]
-
+├ ${prefix}toimg [reply sticker]
+╰❒
 
 ╭─❒ 「 Image Effect 」 
 ├ ${prefix}wanted [reply image/stiker]
@@ -232,8 +236,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}challenger [reply image/stiker]
 ├ ${prefix}burn [reply image/stiker]
 ├ ${prefix}brazzers [reply image/stiker]
-╰❒ ${prefix}beautiful [reply image/stiker]
-
+├ ${prefix}beautiful [reply image/stiker]
+╰❒
 
 ╭─❒ 「 Sticker Effect 」 
 ├ ${prefix}jail [reply image/stiker]
@@ -254,8 +258,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}greyscale [reply image/stiker]
 ├ ${prefix}threshold [reply image/stiker]
 ├ ${prefix}brightness [reply image/stiker]
-╰❒ ${prefix}invertgreyscale [reply image/stiker]
-
+├ ${prefix}invertgreyscale [reply image/stiker]
+╰❒
 
 ╭─❒ 「 Download 」 
 ├ ${prefix}tiktok [link]
@@ -282,8 +286,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}gitclone [link repo]
 ├ ${prefix}gitrepo [username repo branch]
 ├ ${prefix}mediafire [link]
-╰❒ ${prefix}twitter link
-
+├ ${prefix}twitter link
+╰❒
 
 ╭─❒ 「 Random Anime 」
 ├ ${prefix}loli
@@ -316,87 +320,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}wink
 ├ ${prefix}poke
 ├ ${prefix}dance
-╰❒ ${prefix}cringe
-
-╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
+├ ${prefix}cringe
+╰❒
 
 ╭─❒ 「 Textpro Menu 」
 ├ ${prefix}halloween2 text|text2
@@ -578,8 +503,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}3dchrome text
 ├ ${prefix}metalb2 text
 ├ ${prefix}metalg text
-╰❒ ${prefix}metalg text
-
+├ ${prefix}metalg text
+╰❒
 
 ╭─❒ 「 Others 」
 ├ ${prefix}afk [reason]
@@ -592,11 +517,19 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 ╭─❒ 「 Game Menu 」
 ├ ${prefix}kuismath
-├ ${prefix}tebak [option]
+├ ${prefix}tebakgambar
+├ ${prefix}tebakkata
+├ ${prefix}tebakbendera
+├ ${prefix}tebakkalimat
+├ ${prefix}tebaksiapa
+├ ${prefix}tebakkabupaten
+├ ${prefix}tebakkimia
+├ ${prefix}tebaklirik
+├ ${prefix}tebaktebakan
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
-╰❒ ${prefix}caklontong
-
+├ ${prefix}caklontong
+╰❒
 
 ╭─❒ 「 Asupan Menu 」
 ├ ${prefix}chika
@@ -620,8 +553,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}geayubi
 ├ ${prefix}santuy
 ├ ${prefix}ukhty
-╰❒ ${prefix}syifa
-
+├ ${prefix}syifa
+╰❒
 
 ╭─❒ 「 Random Cewe 」
 ├ ${prefix}china 
@@ -634,10 +567,11 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}jenni 
 ├ ${prefix}jiso 
 ├ ${prefix}lisa  
-╰❒ ${prefix}rose
+├ ${prefix}rose
+╰❒
 
 ╭─❒ 「 TqTo 」 
-├ My God
+├ Allah SWT
 ├ My Parents
 ├ Fatih A.
 ├ Ferdi
@@ -647,7 +581,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Rashid
 ├ ZeeoneOfc
 ├ Penyedia Module
-╰❒ And All Support
+├ And All Support
+╰❒
     `
 }
 
@@ -655,13 +590,13 @@ exports.rules = (prefix) => {
     return `
 *── 「 RULES AND FAQ 」 ──*
 
-1. Jangan spam bot. 🙅
+1. Jangan Spam Bot. 🙅
 Sanksi: *❎ WARN/SOFT BLOCK*
 
-2. Jangan telepon bot. ☎️
+2. Jangan Telepon Bot. ☎️
 Sanksi: *❎ SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
+3. Jangan Mengeksploitasi Bot.😖
 Sanksi: *PERMANENT BLOCK*
 
 🗯️ Bot tidak atau lambat merespon ?
@@ -677,14 +612,14 @@ Sanksi: *PERMANENT BLOCK*
 ➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
 
 🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala error, tidak untuk kenalan ataupun mengemis script.
 
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan CocoBotz di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan CocoBotz
 😖🙏
 `
 }
@@ -718,9 +653,12 @@ Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
 
 Berapapun donasi kalian akan sangat berarti 👍
 
-Thanks!
+Dana : 0899-2029-499
+Gopay : 0899-2029-499
+Pulsa : 0899-2029-499
+Pulsa² : 0895-3544-37300
 
-Contact person Owner:
+Contact Owner:
 wa.me/${ownernomer}
 
     `
@@ -734,7 +672,8 @@ exports.info = (prefix) =>{
 ├ ${prefix}ping
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
-╰❒ ${prefix}donate
+├ ${prefix}donate
+╰❒
 `}
 
 exports.ownermenu = (prefix) =>{
@@ -759,7 +698,8 @@ return`╭─❒ 「 Owner 」
 ├ ${prefix}self
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [pesan bot]
-╰❒ ${prefix}setppbot [reply image]
+├ ${prefix}setppbot [reply image]
+╰❒
 `}
 
 exports.database = (prefix) =>{
@@ -774,7 +714,8 @@ exports.database = (prefix) =>{
 ├ ${prefix}addmsg [nama file]
 ├ ${prefix}getmsg [nama file]
 ├ ${prefix}listmsg
-╰❒ ${prefix}delmsg [nama file]
+├ ${prefix}delmsg [nama file]
+╰❒
 `}
 
 exports.group = (prefix) =>{
@@ -793,7 +734,8 @@ exports.group = (prefix) =>{
 ├ ${prefix}linkgc
 ├ ${prefix}group [open/close]
 ├ ${prefix}tagall [text]
-╰❒ ${prefix}hidetag [text]
+├ ${prefix}hidetag [text]
+╰❒
 `}
 
 exports.anime = (prefix) =>{
@@ -801,7 +743,8 @@ exports.anime = (prefix) =>{
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
-╰❒ ${prefix}character [query]
+├ ${prefix}character [query]
+╰❒
 `}
 
 exports.tag = (prefix) =>{
@@ -809,14 +752,16 @@ exports.tag = (prefix) =>{
 ├ ${prefix}stickertag
 ├ ${prefix}videotag [query]
 ├ ${prefix}vntag [query]
-╰❒ ${prefix}imagetag [query]
+├ ${prefix}imagetag [query]
+╰❒
 `}
 
 exports.stalk = (prefix) =>{
 	return`╭─❒ 「 Stalking 」 
 ├ ${prefix}igstalk [username]
 ├ ${prefix}ghstalk [username]
-╰❒ ${prefix}ytstalk [channel]
+├ ${prefix}ytstalk [channel]
+╰❒
 `}
 
 exports.search = (prefix) =>{
@@ -828,7 +773,8 @@ exports.search = (prefix) =>{
 ├ ${prefix}wattpad [query]
 ├ ${prefix}webtoons [query]
 ├ ${prefix}drakor [query]
-╰❒ ${prefix}pinterest [query]
+├ ${prefix}pinterest [query]
+╰❒
 `}
 
 exports.converter = (prefix) =>{
@@ -837,7 +783,8 @@ exports.converter = (prefix) =>{
 ├ ${prefix}tourl [image/video]
 ├ ${prefix}togif [sticker]
 ├ ${prefix}tomp4 [sticker]
-╰❒${prefix}toimg [reply sticker]
+├ ${prefix}toimg [reply sticker]
+╰❒
 `}
 
 exports.effect = (prefix) =>{
@@ -875,7 +822,8 @@ exports.effect = (prefix) =>{
 ├ ${prefix}challenger [reply image/stiker]
 ├ ${prefix}burn [reply image/stiker]
 ├ ${prefix}brazzers [reply image/stiker]
-╰❒ ${prefix}beautiful [reply image/stiker]
+├ ${prefix}beautiful [reply image/stiker]
+╰❒
 `}
 
 //
@@ -899,7 +847,8 @@ exports.effect2 = (prefix) =>{
 ├ ${prefix}greyscale [reply image/stiker]
 ├ ${prefix}threshold [reply image/stiker]
 ├ ${prefix}brightness [reply image/stiker]
-╰❒ ${prefix}invertgreyscale [reply image/stiker]
+├ ${prefix}invertgreyscale [reply image/stiker]
+╰❒
 `
 }
 
@@ -929,7 +878,8 @@ return`╭─❒ 「 Download 」
 ├ ${prefix}gitclone [link repo]
 ├ ${prefix}gitrepo [username repo branch]
 ├ ${prefix}mediafire [link]
-╰❒ ${prefix}twitter link
+├ ${prefix}twitter link
+╰❒
 `
 }
 
@@ -965,12 +915,13 @@ exports.ranime = (prefix) =>{
 ├ ${prefix}wink
 ├ ${prefix}poke
 ├ ${prefix}dance
-╰❒ ${prefix}cringe
+├ ${prefix}cringe
+╰❒
 `
 }
 
 exports.nsfw = (prefix) =>{
-	return`Astaghfirullah
+	return`Astaghfirullah😡
 `
 }
 
@@ -1155,7 +1106,8 @@ exports.textpro = (prefix) =>{
 ├ ${prefix}3dchrome text
 ├ ${prefix}metalb2 text
 ├ ${prefix}metalg text
-╰❒ ${prefix}metalg text
+├ ${prefix}metalg text
+╰❒
 `
 }
 
@@ -1169,16 +1121,26 @@ return`╭─❒ 「 Others 」
 ├ ${prefix}kalkulator [query]
 ├ ${prefix}smeme [text]
 ├ ${prefix}smeme2 [text|text]
-╰❒ ${prefix}memegen [text|text]
+├ ${prefix}memegen [text|text]
+╰❒
 `
 }
 exports.game = (prefix) =>{
 return`╭─❒ 「 Game Menu 」
 ├ ${prefix}kuismath
-├ ${prefix}tebak [option]
+├ ${prefix}tebakgambar
+├ ${prefix}tebakkata
+├ ${prefix}tebakbendera
+├ ${prefix}tebakkalimat
+├ ${prefix}tebaksiapa
+├ ${prefix}tebakkabupaten
+├ ${prefix}tebakkimia
+├ ${prefix}tebaklirik
+├ ${prefix}tebaktebakan
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
-╰❒ ${prefix}caklontong
+├ ${prefix}caklontong
+╰❒
 `
 }
 exports.asupan = (prefix) =>{
@@ -1204,7 +1166,8 @@ return`╭─❒ 「 Asupan Menu 」
 ├ ${prefix}geayubi
 ├ ${prefix}santuy
 ├ ${prefix}ukhty
-╰❒ ${prefix}syifa
+├ ${prefix}syifa
+╰❒
 `
 }
 exports.cecan = (prefix) =>{
@@ -1219,7 +1182,8 @@ return`╭─❒ 「 Random Cewe 」
 ├ ${prefix}jenni 
 ├ ${prefix}jiso 
 ├ ${prefix}lisa  
-╰❒ ${prefix}rose
+├ ${prefix}rose
+╰❒
 `
 }
 
@@ -1235,6 +1199,7 @@ exports.tqto = () =>{
 ├ Rashid
 ├ ZeeoneOfc
 ├ Penyedia Module
-╰❒ And All Support
+├ And All Support
+╰❒
 `
 }
