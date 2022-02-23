@@ -4,7 +4,7 @@
 
 </p>
 <p align="center">
-<a href="#"><img title="COCOBOTZ MULTI DEVICE" src="https://img.shields.io/badge/ALPHABOT MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="COCOBOTZ MULTI DEVICE" src="https://img.shields.io/badge/COCOBOTZ MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/DikaArdnt"><img title="Author" src="https://img.shields.io/badge/Author-Dika-red.svg?style=for-the-badge&logo=github"></a>
@@ -34,12 +34,12 @@
 ---
 
 ## Information
-> Alpahbot-Md adalah bot yang awalnya memakai base dari [Chikabot](https://github.com/rashidsiregar28/chikabot/blob/main/README.md), sekarang pindah base [Hisoka-Morou](https://github.com/DikaArdnt/Hisoka-Morou). Alphabot-Md is a bot whatsapp using a Baileys library.
+> CocoBotz-MD adalah bot yang awalnya memakai base dari [Chikabot](https://github.com/rashidsiregar28/chikabot/blob/main/README.md), sekarang pindah base [Hisoka-Morou](https://github.com/DikaArdnt/Hisoka-Morou). CocoBotz-MD is a bot whatsapp using a Baileys library.
 > Jika kamu menemukan semacam bug, harap untuk dimaklumi sementara
 
 ## Bugs and Tester
 * Jika kamu menemukan bug jangan lupa buka Issues
-* Info Lebih Lanjut, Chat [owner-alpha](https://wa.me/62887435047326)
+* Info Lebih Lanjut, Chat [Owner](https://wa.me/628992029499)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
@@ -56,8 +56,8 @@
 
 ## For Windows/RDP
 ```bash
-git clone https://github.com/zeeoneofc/Alphabot-Md.git
-cd Alphabot-Md
+git clone https://github.com/iCocopie/CocoBotzV10
+cd CocoBotzV10
 npm install
 node main
 ```
@@ -66,8 +66,8 @@ node main
 termux-setup-storage
 apt update && apt upgrade
 pkg install nodejs git ffmpeg
-git clone https://github.com/zeeoneofc/Alphabot-Md.git
-cd Alphabot-Md
+git clone https://github.com/iCocopie/CocoBotzV10
+cd CocoBotzV10
 npm install
 node main
 ```
@@ -95,7 +95,7 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 ```
 
 ## Donate
-- [Saweria](https://saweria.co/zeeoneofc)
+- [Saweria](https://saweria.co/cocopie)
 - [Dana](https://j.top4top.io/p_20532posd1.jpg)
 - [Ovo](https://h.top4top.io/p_2053vk0uw1.jpg)
 - [Gopay](https://i.top4top.io/p_2053em3vh1.jpg)
