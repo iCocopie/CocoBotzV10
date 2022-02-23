@@ -177,16 +177,16 @@ if (!user) continue
 let afkTime = user.afkTime
 if (!afkTime || afkTime < 0) continue
 let reason = user.afkReason || ''
-reply(`Jangan tag dia!
-Dia sedang AFK ${reason ? '\nReason : ' + reason : 'Reason : Nothing'}
-Waktu : ${clockString(new Date - afkTime)}
+reply(`「 *AFK* 」
+Maaf Kak, Orangnya Lagi Pergi ${reason ? '\nDengan Alasan : ' + reason : 'Dengan Alasan : Nothing'}
+Selama : ${clockString(new Date - afkTime)}
 `.trim())
 }
 if (db.data.users[m.sender].afkTime > -1) {
 let user = global.db.data.users[m.sender]
 m.reply(`
-Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
-Selama ${clockString(new Date - user.afkTime)}
+You've Been Stop AFK${user.afkReason ? ' After ' + user.afkReason : ''}
+Selama : ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
 user.afkReason = ''
@@ -816,7 +816,7 @@ Kecepatan Respon ${latensi.toFixed(4)} _Detik_ \n ${oldd - neww} _milidetik_\n\n
 💻 Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
-_NodeJS Memory Usaage_
+_NodeJS Memory Ussage_
 ${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
 
 ${cpus[0] ? `_Total CPU Usage_
@@ -849,13 +849,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "Tiktok Creator",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Instagram",              
               "url": `${myweb}`
 
             }
@@ -1270,7 +1270,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-m.reply(`${m.pushName} Telah Afk Dengan Alasan ${text ? ': ' + text : 'Nothing'}`)
+m.reply(`「 *AFK* 」\n ${m.pushName} Is Now AFK With Reason ${text ? ': ' + text : 'Nothing'}`)
 }
 break  
 case 'family100': {
@@ -1509,13 +1509,13 @@ break
 						var but = [
 						{
 							"urlButton": {
-								"displayText": "YouTube Creator",
+								"displayText": "Tiktok Creator",
 								"url": `${youtube}`
 								}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1544,13 +1544,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1581,13 +1581,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1618,13 +1618,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1655,13 +1655,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1692,13 +1692,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1729,13 +1729,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1766,13 +1766,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1802,13 +1802,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1838,13 +1838,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1875,13 +1875,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1912,13 +1912,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1948,13 +1948,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -1984,13 +1984,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2020,13 +2020,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2056,13 +2056,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2092,13 +2092,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2129,13 +2129,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2165,13 +2165,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2201,13 +2201,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2237,13 +2237,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2273,13 +2273,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
@@ -2311,13 +2311,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Tiktok Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Instagram",
 										"url": `${myweb}`
 										}
 										},
