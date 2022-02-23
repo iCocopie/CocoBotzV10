@@ -19,7 +19,7 @@ global.available = false //status online (online)
 
 // Other
 global.botname = "CocoBotz-MD" //namabot
-global.ownername= "CocopieOfcོ ×፝֟͜×" //nama owner
+global.ownername= "Cocopie ×፝֟͜×" //nama owner
 global.myweb ="https://instagram.com/ryuuu.rs"
 global.youtube = "https://tiktok.com/ryuuu.rs"
 global.github = "https://github.com/iCocopie"
