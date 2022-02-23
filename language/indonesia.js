@@ -87,9 +87,8 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname) =>{
 	return`Hai Kak ${pushname} 👋 Selamat ${salam} , 
-Saya CocoBotz-MD, Bot Ini Adalah Beta Multi-Device Whatsapp. 
-Jika Kamu Menemukan Sdmacam Bug Atau Kesalahan Mohon 
-Lapor Owner Agar Segera Di Perbaiki 🙏      
+Saya *CocoBotz-MD*, Bot Ini Adalah Beta Multi-Device Whatsapp. 
+Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Lapor Owner Agar Segera Di Perbaiki 🙏      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
