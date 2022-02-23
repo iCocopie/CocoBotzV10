@@ -13,45 +13,45 @@ exports.err = () => {
     return `⚠️ Fitur Sedang Error`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link Error`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Silahkan Pilih Media Yang Ingin Kamu Download`
 }
 exports.replyImg = (prefix, command) => {
     return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format Salah, Silahkan Cek Cara Penggunaan Di Menu`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `❎ Masukkan Pesan Yang Ingin Disampaikan`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ Command *${cmd}* Tidak Terdaftar Di List Menu`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Command Ini Hanya Bisa Digunakan Oleh Owner`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️Sudah Selesai, Owner ~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Command Ini Hanya Bisa Digunakan Di Dalam Grup!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  Command Ini Hanya Bisa Digunakan Oleh Admin Grup!`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `Kode Invalid!`
 }
 
 exports.listBlock = (blockNumber) => {
@@ -61,15 +61,15 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ User Bukan Seorang Admin! ❎`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `❎ Tidak Dapat Mem-Promote User Yang Merupakan Admin!`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan Bot Sebagai Admin Terlebih Dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
