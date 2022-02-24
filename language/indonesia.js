@@ -86,9 +86,16 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname) =>{
-	return`Hai Kak ${pushname} 👋 Selamat ${salam} , 
-Saya *CocoBotz-MD*, Bot Ini Adalah Beta Multi-Device Whatsapp. 
-Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Lapor Owner Agar Segera Di Perbaiki 🙏      
+	return`Hai Kak *${pushname}*🦦 Selamat ${salam}
+
+❏ 🤖️ *BOT INFO*
+🤾‍♂️ Bot Name : *CocoBotz-MD*
+🪄 Mode : Multi Mode
+🧭 Prefix : Multi Prefix
+🪀 WhatsApp : Version : 2.21.24.25
+💻 Platform : Linux
+🌏 Browser : Chrome
+🌐 Server : Baileys
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -107,7 +114,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒
 
 ╭─❒ 「 Owner 」 
-├ < evaluate
+├  evaluate
 ├ > evaluate
 ├ $ exec
 ├ => exec
@@ -517,15 +524,15 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 ╭─❒ 「 Game Menu 」
 ├ ${prefix}kuismath
-├ ${prefix}tebakgambar
-├ ${prefix}tebakkata
-├ ${prefix}tebakbendera
-├ ${prefix}tebakkalimat
-├ ${prefix}tebaksiapa
-├ ${prefix}tebakkabupaten
-├ ${prefix}tebakkimia
-├ ${prefix}tebaklirik
-├ ${prefix}tebaktebakan
+├ ${prefix}tebak gambar
+├ ${prefix}tebak kata
+├ ${prefix}tebak bendera
+├ ${prefix}tebak kalimat
+├ ${prefix}tebak siapa
+├ ${prefix}tebak kabupaten
+├ ${prefix}tebak kimia
+├ ${prefix}tebak lirik
+├ ${prefix}tebak tebakan
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
 ├ ${prefix}caklontong
@@ -1127,16 +1134,15 @@ return`╭─❒ 「 Others 」
 }
 exports.game = (prefix) =>{
 return`╭─❒ 「 Game Menu 」
-├ ${prefix}kuismath
-├ ${prefix}tebakgambar
-├ ${prefix}tebakkata
-├ ${prefix}tebakbendera
-├ ${prefix}tebakkalimat
-├ ${prefix}tebaksiapa
-├ ${prefix}tebakkabupaten
-├ ${prefix}tebakkimia
-├ ${prefix}tebaklirik
-├ ${prefix}tebaktebakan
+├ ${prefix}tebak gambar
+├ ${prefix}tebak kata
+├ ${prefix}tebak bendera
+├ ${prefix}tebak kalimat
+├ ${prefix}tebak siapa
+├ ${prefix}tebak kabupaten
+├ ${prefix}tebak kimia
+├ ${prefix}tebak lirik
+├ ${prefix}tebak tebakan
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
 ├ ${prefix}caklontong
